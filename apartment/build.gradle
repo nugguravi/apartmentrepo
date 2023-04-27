@@ -3,8 +3,8 @@ plugins {
 	id 'org.springframework.boot' version '2.7.1'
 	id 'io.spring.dependency-management' version '1.1.0'
 }
+version = '1.0'
 
-rootProject.name="student"
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
@@ -30,7 +30,5 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-apply plugin:'java'
 
 
